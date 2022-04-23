@@ -1,0 +1,87 @@
+#home,#contacts {
+    background-color: #0d0d0d;
+}
+
+.movie {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.content {
+    color: black;
+    background-color: rgba(248, 246, 246, 0.5);
+    top: 100%;
+    text-align: center;
+    transition: 1s;
+}
+
+.movie:hover .content {
+    top: 0;
+}
+
+.side {
+    width: 75px;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+}
+
+.side img {
+    width: 50px;
+    height: 70px;
+}
+
+.side i {
+    cursor: pointer;
+}
+
+.line {
+    position: relative;
+    top: 15px;
+}
+
+.types {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: #0d0d0d;
+}
+
+.type h6 {
+    margin: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.type h6:hover {
+    color: red;
+}
+/* #watch{
+    position: relative;
+    top:50%;
+} */
+.copyright i{
+    color:white;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.copyright i:hover{
+    color:red;
+}
+.inp{ 
+   background-color: transparent !important;
+   width: 100%;
+   text-align: center;
+   border-left: transparent !important;
+   border-right: transparent !important;
+   border-top: transparent !important;
+}
+.seprate{
+    height: 2px;
+    background-color: white;
+
+}
